@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.block1{
+    width: 100px;
+    height: 100px;
+    background: blue;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.block2{
+    width: 100px;
+    height: 100px;
+    background: green;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+.block3{
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
+.block4{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+.block5{
+    width: 100px;
+    height: 100px;
+    background:violet;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.block6{
+    width: 100px;
+    height: 100px;
+    background:rgb(5, 4, 5);
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%,-50%);
+}
+.block7{
+    width: 100px;
+    height: 100px;
+    background:rgb(44, 175, 175);
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%,-50%);
+}
+.block8{
+    width: 100px;
+    height: 100px;
+    background:rgb(247, 3, 247);
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.block9{
+    width: 100px;
+    height: 100px;
+    background:rgb(82, 110, 5);
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.block10{
+    width: 200px;
+    height: 200px;
+    background:lightcoral;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.block11{
+    width: 200px;
+    height: 200px;
+    background:rgb(139, 16, 16);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.block12{
+    width: 200px;
+    height: 200px;
+    background:rgb(59, 16, 139);
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 200;
+}
+.block13{
+    width: 100px;
+    height: 100px;
+    background:rgb(121, 139, 16);
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 300;
+}
